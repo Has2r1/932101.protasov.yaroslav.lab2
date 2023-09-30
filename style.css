@@ -1,50 +1,47 @@
 body {
-	margin: 0;
 	font-size: 1.05em;
+	color: white;
 }
-h1 {
-	margin: 0;
+.static_div {
+	width: 150px;
+	height: 100px;
+	background-color: blueviolet;
 }
-span {
-	color: red;
+.relative_div_1 {
+	width: 150px;
+	height: 100px;
+	background-color: red;
+	position: relative;
 }
-header {
-	width: 100%;
-	height: 10vh;
-	padding: 10px;
-	box-sizing: border-box;
-	background-color: rgb(184, 180, 180);
+.relative_div_2 {
+	width: 150px;
+	height: 100px;
+	background-color: orange;
+	position: relative;
+	left: 30px;
+	top: 50px;
 }
-main {
-	width: 100%;
-	height: 85vh;;
+.relative_div_3 {
+	width: 600px;
+	height: 400px;
+	background-color: palevioletred;
+	position: relative;
+	top: 100px;
 }
-footer {
-	width: 100%;
-	height: 5vh;
-	background-color: black;
-	text-align: center;
-	padding: 10px;
-	box-sizing: border-box;
-}
-a {
-	color: yellow;
-}
-a span{
-	color: yellow;
-}
-aside {
-	width: 200px;
-	height: 85vh;
-	position: fixed;
-	float: left;
-	background-color: rgb(174, 207, 124);
-	padding: 10px;
-	box-sizing: border-box;
-}
-.content_column {
+.absolute_div {
+	width: 300px;
+	height: 200px;
+	background-color: rgb(101, 32, 165);
 	position: absolute;
-	left: 200px;
-	padding: 10px;
-	box-sizing: border-box;
+	right: 0;
+	top: 100px;
+}
+.fixed_div {
+	width: 120px;
+	height: 120px;
+	background-color: green;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	z-index: -10;
 }
